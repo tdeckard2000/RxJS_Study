@@ -1,10 +1,10 @@
 <div class="mainContainer">
   <div class="buttonContainer">
-    <button>Start Slow Task (3s)</button>
-    <button>Start Very Slow Task (6s)</button>
+    <button (click)="onStartSlowTask()">Start Slow Task (3s)</button>
+    <button (click)="onStartVerySlowTask()">Start Very Slow Task (6s)</button>
   </div>
 
   <div>
-    <p class="taskCounter">Background Tasks: </p>
+    <p class="taskCounter">Background Tasks: {{backgroundTaskCounter}}</p>
   </div>
 </div>
