@@ -1,0 +1,37 @@
+button {
+  background-color: #6565ff;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 1px 1px 8px #a7a7a7;
+  color: white;
+  height: 45px;
+  margin: 8px;
+  width: 200px;
+
+  &:hover {
+    background-color: #5757ff;
+  }
+
+  &:active {
+    background-color: #6767ff;
+    box-shadow: 1px 1px 0px #a7a7a7;
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.taskCounter {
+  font-family: sans-serif;
+  font-weight: 100;
+}
